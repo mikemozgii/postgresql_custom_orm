@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.ORM.Core\\UnivIntel.PostgreSQL.ORM.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.Core\\UnivIntel.PostgreSQL.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.Core\\UnivIntel.PostgreSQL.Core.csproj",
+        "projectName": "UnivIntel.PostgreSQL.Core",
+        "projectPath": "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.Core\\UnivIntel.PostgreSQL.Core.csproj",
+        "packagesPath": "C:\\Users\\mikek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mikek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.ORM.Core\\UnivIntel.PostgreSQL.ORM.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.ORM.Core\\UnivIntel.PostgreSQL.ORM.Core.csproj",
+        "projectName": "UnivIntel.PostgreSQL.ORM.Core",
+        "projectPath": "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.ORM.Core\\UnivIntel.PostgreSQL.ORM.Core.csproj",
+        "packagesPath": "C:\\Users\\mikek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.ORM.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mikek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.Core\\UnivIntel.PostgreSQL.Core.csproj": {
+                "projectPath": "C:\\Users\\mikek\\Source\\Repos\\PostgreSQL\\UnivIntel.PostgreSQL\\UnivIntel.PostgreSQL.Core\\UnivIntel.PostgreSQL.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.0-preview1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
